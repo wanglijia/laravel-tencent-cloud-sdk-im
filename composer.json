@@ -16,7 +16,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Wlj\\TencentCloudSdkIm\\": "src"
+      "wanglijia\\TencentCloudSdkIm\\": "src"
     }
   },
   "extra": {
