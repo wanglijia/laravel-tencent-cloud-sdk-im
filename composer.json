@@ -1,0 +1,32 @@
+{
+  "name": "wanglijia/laravel-tencent-cloud-sdk-im",
+  "description": "tencentcloud-sdk-tim for laravel",
+  "keywords": [
+    "laravel",
+    "tencent-cloud-sdk",
+    "tencent-cloud-sdk-tim",
+    "tencent tim"
+  ],
+  "type": "library",
+  "license": "Apache-2.0",
+  "require": {
+    "illuminate/support": "^5.0||^6.0 || ^7.0 || ^8.0",
+    "wanglijia/qcloud-im-sdk-php": "*",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Wlj\\TencentCloudSdkIm\\": "src"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "wanglijia\\TencentCloudSdkIm\\ServiceProvider"
+      ],
+      "aliases": {
+        "TencentCloudSdkIm": "wanglijia\\TencentCloudSdkIm\\TencentCloudSdkIm"
+      }
+    }
+  }
+}
