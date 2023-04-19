@@ -11,7 +11,7 @@
   "license": "Apache-2.0",
   "require": {
     "illuminate/support": "^5.0||^6.0 || ^7.0 || ^8.0",
-    "wanglijia/qcloud-im-sdk-php": "*",
+    "wanglijia/qcloud-im-sdk-php1": "*",
     "ext-json": "*"
   },
   "autoload": {
